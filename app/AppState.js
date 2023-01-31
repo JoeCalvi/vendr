@@ -16,48 +16,64 @@ class AppState extends EventEmitter {
         name: 'Sample', 
         price: 3.50, 
         imgUrl: 'https://via.placeholder.com/150'
-      },
+      }
+    ),
+    new Snack(
       {
         name: 'Sample',
         price: 3.50,
         imgUrl: 'https://via.placeholder.com/150'
-      },
+      }
+    ),
+    new Snack(
       {
         name: 'Sample',
         price: 3.50,
         imgUrl: 'https://via.placeholder.com/150'
-      },
+      }
+    ),
+    new Snack(
       {
         name: 'Sample',
         price: 3.50,
         imgUrl: 'https://via.placeholder.com/150'
-      },
+      }
+    ),
+    new Snack(
       {
         name: 'Sample',
         price: 3.50,
         imgUrl: 'https://via.placeholder.com/150'
-      },
+      }
+    ),
+    new Snack(
       {
         name: 'Sample',
         price: 3.50,
         imgUrl: 'https://via.placeholder.com/150'
-      },
+      }
+    ),
+    new Snack(
       {
         name: 'Sample',
         price: 3.50,
         imgUrl: 'https://via.placeholder.com/150'
-      },
+      }
+    ),
+    new Snack(
       {
         name: 'Sample',
         price: 3.50,
         imgUrl: 'https://via.placeholder.com/150'
-      },
+      }
+    ),
+    new Snack(
       {
         name: 'Sample',
         price: 3.50,
         imgUrl: 'https://via.placeholder.com/150'
-      },
-      )
+      }
+    ),
   ]
 
   money = 0

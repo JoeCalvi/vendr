@@ -5,6 +5,14 @@ import { setHTML, setText } from "../Utils/Writer.js";
 
 // SECTION private functions below
 
+function _drawMoney(){
+    let template = ''
+
+    template += snack.MoneyTemplate
+
+    setHTML('money', template)
+    
+}
 
 
 export class MoneyController {
@@ -13,4 +21,8 @@ export class MoneyController {
     }
 
     // SECTION public functions below
+
+    getMoney(){
+        snacksService.getMoney()
+    }
 }
