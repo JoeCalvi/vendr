@@ -12,9 +12,9 @@ export class Snack {
         return `
     <div class="col-4 text-center pt-5">
         <div>
-            <img src="https://via.placeholder.com/150">
-                <h6 class="pt-3">Snack Name</h6>
-                <h6>Cost:</h6>
+            <img src="${this.imgUrl}" class="border rounded">
+                <h6 class="pt-3">${this.name}</h6>
+                <h6>$${this.price}</h6>
         </div>
     </div>
         `

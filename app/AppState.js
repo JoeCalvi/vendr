@@ -13,65 +13,65 @@ class AppState extends EventEmitter {
   snacks = [
     new Snack(
       {
-        name: 'Sample', 
-        price: 3.50, 
-        imgUrl: 'https://via.placeholder.com/150'
+        name: 'Chips',
+        price: 3.50,
+        imgUrl: 'https://m.media-amazon.com/images/I/813axPlVxBL.jpg'
       }
     ),
     new Snack(
       {
-        name: 'Sample',
+        name: 'Cheez-Its',
         price: 3.50,
-        imgUrl: 'https://via.placeholder.com/150'
+        imgUrl: 'https://content.etilize.com/Maximum/1010042087.jpg'
       }
     ),
     new Snack(
       {
-        name: 'Sample',
+        name: 'Protein Bar',
         price: 3.50,
-        imgUrl: 'https://via.placeholder.com/150'
+        imgUrl: 'https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_06c1c9f4-42e9-4c31-9f65-33aebdb48135.png'
       }
     ),
     new Snack(
       {
-        name: 'Sample',
+        name: 'Beef Jerky',
         price: 3.50,
-        imgUrl: 'https://via.placeholder.com/150'
+        imgUrl: 'https://m.media-amazon.com/images/I/81MK4YmOTgL.jpg'
       }
     ),
     new Snack(
       {
-        name: 'Sample',
+        name: 'Hot Cheetos',
         price: 3.50,
-        imgUrl: 'https://via.placeholder.com/150'
+        imgUrl: 'https://m.media-amazon.com/images/I/91pNe+nkT1L.jpg'
       }
     ),
     new Snack(
       {
-        name: 'Sample',
+        name: 'Skittles',
         price: 3.50,
-        imgUrl: 'https://via.placeholder.com/150'
+        imgUrl: 'https://s7d6.scene7.com/is/image/bjs/281821?$bjs-Initial350$'
       }
     ),
     new Snack(
       {
-        name: 'Sample',
+        name: 'Pretzels',
         price: 3.50,
-        imgUrl: 'https://via.placeholder.com/150'
+        imgUrl: 'https://i5.walmartimages.com/asr/20537216-b9dc-433a-a5ff-b35a55a7a417.3f9fa7719745daf19e40bd140e140df8.jpeg'
       }
     ),
     new Snack(
       {
-        name: 'Sample',
+        name: 'M&Ms',
         price: 3.50,
-        imgUrl: 'https://via.placeholder.com/150'
+        imgUrl: 'https://images.heb.com/is/image/HEBGrocery/000121397?fit=constrain,1&wid=800&hei=800&fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0'
       }
     ),
     new Snack(
       {
-        name: 'Sample',
+        name: 'Popcorn',
         price: 3.50,
-        imgUrl: 'https://via.placeholder.com/150'
+        imgUrl: 'https://cdn.shopify.com/s/files/1/2804/5352/products/02302_6.5oz_UTZBUTTERPOPCORNBAG_FRONT.jpg?v=1614202711'
       }
     ),
   ]
