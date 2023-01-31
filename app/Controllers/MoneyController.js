@@ -5,24 +5,27 @@ import { setHTML, setText } from "../Utils/Writer.js";
 
 // SECTION private functions below
 
-function _drawMoney(){
+function _drawMoney() {
     let template = ''
+    let money = appState.money
 
-    template += snack.MoneyTemplate
+    template += `<h5>Money: $${money}</h5>`
 
     setHTML('money', template)
-    
+
 }
 
 
 export class MoneyController {
     constructor() {
+        _drawMoney()
 
+        appState.on('money', _drawMoney)
     }
 
     // SECTION public functions below
 
-    getMoney(){
+    getMoney() {
         snacksService.getMoney()
     }
 }

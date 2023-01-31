@@ -19,10 +19,4 @@ export class Snack {
     </div>
         `
     }
-
-    get MoneyTemplate() {
-        return `
-        <h3>Money: $${appState.money}</h3>
-        `
-    }
 }
