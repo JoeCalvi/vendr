@@ -28,4 +28,8 @@ export class MoneyController {
     getMoney() {
         snacksService.getMoney()
     }
+
+    spendMoney(name) {
+        snacksService.spendMoney(name)
+    }
 }

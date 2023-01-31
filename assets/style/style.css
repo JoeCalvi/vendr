@@ -4,3 +4,7 @@ img{
     width: 200px;
     box-shadow: 1px 2px 2px black;
 }
+
+.purchasable:hover{
+    box-shadow: 5px 5px 3px gold;
+}
